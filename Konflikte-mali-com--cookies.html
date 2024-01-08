@@ -1,0 +1,90 @@
+<body>
+<style>
+
+ .cookie-banner {
+
+    position: fixed;
+
+    bottom: 0;
+
+    left: 0;
+
+    right: 0;
+
+    background-color: #f8f9fa;
+
+    color: #212529;
+
+    padding: 15px;
+
+    text-align: center;
+
+    z-index: 1000;
+
+ }
+
+ .cookie-banner button {
+
+    background-color: #007bff;
+
+    color: #fff;
+
+    padding: 5px 10px;
+
+    border: none;
+
+    cursor: pointer;
+
+ }
+
+</style>
+
+    Füge den folgenden JavaScript-Code in den <body>-Bereich deiner HTML-Datei ein, um die cookie meldung und ihre Funktionalität zu erstellen:
+
+html
+
+<div class="cookie-banner">
+
+ Diese Webseite verwendet Cookies, um sicherzustellen, dass Sie die bestmögliche Erfahrung auf unserer Website erhalten. Wenn Sie fortfahren, stimmen Sie der Verwendung von Cookies zu.
+
+ <button id="acceptCookie">Verstanden</button>
+
+</div>
+
+
+<script>
+
+ var acceptCookie = document.getElementById('acceptCookie');
+
+
+ acceptCookie.onclick = function () {
+
+    setCookie('acceptCookies', 'true', 30);
+
+    var cookieBanner = document.querySelector('.cookie-banner');
+
+    cookieBanner.style.display = 'none';
+
+ };
+
+
+ function setCookie(name, value, days) {
+
+    var expires = '';
+
+    if (days) {
+
+      var date = new Date();
+
+      date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+
+      expires = '; expires=' + date.toUTCString();
+
+    }
+
+    document.cookie = name + '=' + (value || '') + expires + '; path=/';
+
+ }
+
+</script>
+    </body>
