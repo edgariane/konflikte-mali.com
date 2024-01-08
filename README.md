@@ -17,8 +17,8 @@
           <ol>
             <h3><li>AI-Qaida im Maghreb(AQMI)</li></h3>
                <figure>
-                   <img src="regierung.jpg" alt="Bild der Regierung">
-                   <figcaption>Text zur Regierung, zum Beispiel ihre Geschichte und aktuelle Rolle.</figcaption>
+                   <figcaption>git add meine-datei.txt</figcaption>
+                   <img src=Abdelhamid_Abou_Zeid.jpg alt=Abou Zaid width="200" height="200">
                </figure> 
           </ol>
     </section>
