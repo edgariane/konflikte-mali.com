@@ -16,7 +16,7 @@
       <h2>Infos zu Feindkräfte in Mali</h2>
           <ol>
             <h3><li>AI-Qaida im Maghreb(AQMI)</li></h3>
-            <h4>Anführer = Abou Zaid</h4>
+            <h4>Anführer = Abou Zaid</h4><img src=[Abdelhamid_Abou_Zeid](https://github.com/edgariane/konflikte-mali.com/assets/148069869/7ad99fbb-b4cc-493c-90b7-c6439a08fe0a)>
           </ol>
     </section>
     <section>
@@ -28,7 +28,8 @@
         <p>Beschreibung der möglichen zukünftigen Konflikte in Mali</p>
     </section>
     <footer>
-        <!-- Informationen über die Website, zum Beispiel über die Autoren -->
+tionen über die W!
+ebsite, zum Beispiel über die Autoren -->
     </footer>
 </body>
 </body>
