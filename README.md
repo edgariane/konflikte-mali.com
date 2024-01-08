@@ -2,7 +2,7 @@
 <html lang="de">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">                    
 </head>
 <body>
    <body>
@@ -16,7 +16,10 @@
       <h2>Infos zu Feindkräfte in Mali</h2>
           <ol>
             <h3><li>AI-Qaida im Maghreb(AQMI)</li></h3>
-            <h4>Anführer = Abou Zaid</h4><img src=[Abdelhamid_Abou_Zeid](https://github.com/edgariane/konflikte-mali.com/assets/148069869/7ad99fbb-b4cc-493c-90b7-c6439a08fe0a)>
+               <figure>
+                   <img src="regierung.jpg" alt="Bild der Regierung">
+                   <figcaption>Text zur Regierung, zum Beispiel ihre Geschichte und aktuelle Rolle.</figcaption>
+               </figure> 
           </ol>
     </section>
     <section>
